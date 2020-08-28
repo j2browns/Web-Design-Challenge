@@ -1,0 +1,38 @@
+
+
+.nava {
+  height: 150px;
+  padding: 10px;
+  color: beige;
+  background: #7DA3B8
+}
+.nava h1{
+  color: beige;
+  text-align: center;
+  vertical-align: center;
+}
+
+.boxa {
+  height: 80px;
+  padding: 10px;
+  color: beige;
+  background: #B88051;
+}
+.boxa h1{
+  color: beige;
+  text-align: center;
+  vertical-align: center;
+}
+
+.box {
+    height: 200px;
+    padding: 20px;
+    color: beige;
+    background: #B88051;
+  }
+
+.box p{
+
+    font-size: smaller;
+    text-align: center;
+}
