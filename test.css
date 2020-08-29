@@ -55,6 +55,7 @@
     text-align: center;
   }
 
+
 .boxb p{
     color: beige;
     font-size: smaller;
@@ -62,3 +63,41 @@
 
 }
 
+.boxd{
+  height: auto;
+  padding: 20 px;
+  color: beige;
+  background: #B88051;
+  text-align: center;
+}
+
+.boxd h1{
+  color: whitesmoke;
+  text-align: center;
+  font-size: medium;
+}
+.boxd p{
+  color: beige;
+  font-size: 10 px;
+  text-align: center;
+}
+
+.boxe{
+  height: auto;
+  padding: 20 px;
+  color: beige;
+  background: #7DA3B8;
+  text-align: center;
+}
+
+.boxe h1{
+  color: whitesmoke;
+  text-align: center;
+  font-size: medium;
+}
+.boxe p{
+  color: beige;
+  font-size: 10 px;
+  text-align: center;
+
+}
