@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 
 
 .nava {
@@ -12,27 +15,50 @@
   vertical-align: center;
 }
 
+.Thumbnail {
+  display: inline-block;
+  float: none;
+
+}
+.boxc {
+  height: 50px;
+  padding: 5px;
+  color: beige;
+  background: #7DA3B8;
+  text-align: center;
+}
+
+.boxc p{
+  color: beige;
+  font-size: smaller;
+  text-align: center;
+}
+
 .boxa {
-  height: 80px;
-  padding: 10px;
+  height: 160px;
+  padding: 20px;
   color: beige;
   background: #B88051;
-}
-.boxa h1{
-  color: beige;
   text-align: center;
-  vertical-align: center;
+}
+.boxa p{
+  color: beige;
+  font-size: smaller;
+  text-align: center;
 }
 
-.box {
-    height: 200px;
+.boxb {
+    height: 160px;
     padding: 20px;
     color: beige;
-    background: #B88051;
+    background: #7DA3B8;
+    text-align: center;
   }
 
-.box p{
-
+.boxb p{
+    color: beige;
     font-size: smaller;
     text-align: center;
+
 }
+

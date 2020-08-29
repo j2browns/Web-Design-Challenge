@@ -31,9 +31,9 @@
                   Data Plots
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="vis1.html">Plot 1</a>
-                  <a class="dropdown-item" href="vis2.html">Plot 2</a>
-                  <a class="dropdown-item" href="vis3.html">Plot 3</a>
+                  <a class="dropdown-item" href="vis1.html">Avg Temperature</a>
+                  <a class="dropdown-item" href="vis2.html">Pie Chart of Severe Storm </a>
+                  <a class="dropdown-item" href="vis3.html">Yearly Number Tornados</a>
                   <a class="dropdown-item" href="vis4.html">Plot 4</a>
                 </div>
               </li>
@@ -47,12 +47,115 @@
         <!-- First Row -->
         <div class="row">
         <!-- First (and only column) -->
-        <div class="col-md-8">
-          <h1>This is my text extending over many rows as I try to test out what the heck this code is doing</h1>
-        </div>
-        <div class="col-md-4">
-            <p1>This is my text extending over many rows as I try to test out what the heck this code is doing</p1>
+          <div class="col-md-8">
+            <h1>Project: Storm Severity in Minnesota</h1>
+
+            <p1>In this project we looked at weather statistics for the state of Minnesota to determine if severe weather is trending upward in the past 70 years. 
+              We believe severe weather has increased over the years due to Global Warming and from personal experience.<br></p1>
+
+            <p1><br></p1>
+
+            <p1>All of the data in the dataset is considered severe. There are also definitions provided on the NOAA website with numbers corresponding to what is severe.  Therefore 
+               we will not have to determine if a storm is severe or not - this is done by NOAA.<br></p1>
+
+            <p1><br></p1>
+
+            <h4>Hypothesis:<br></h4>
+            <p1>Between 1950 and 2020, on average there has been an increase in the number of severe weather instances.<br></p1>
+            <p1><br></p1>
+            <h4>Null Hypothesis:<br></h4>
+            <p1>The average number of instances of severe weather between 1950 to 2020 has not changed or has no statistical significance.<br></p1>
+            <p1><br></p1>
+
+            <h4>Research Questions to Answer:<br></h4>
+            <ul>
+              <li>Has Minnesota weather gotten more severe over the years since 1950? </li>
+              <li>Seasonal Temperature Trends</li>
+              <li>Has number of tornadoes experienced in Minnesota increased?</li>
+              <li>Where have the tornados in Minnesota occured?</li>
+            </ul>
+
+            <h5>Where does the data come from?</h5>
+            <a href = "ftp://ftp.ncdc.noaa.gov/pub/data/swdi/stormevents/csvfiles/">
+              <p1>NOAA FTP site for StormEvents<br></p1>
+            </a>
+            <a href = "https://www.ncdc.noaa.gov/cdo-web/datatools/findstation">
+              <p1>NOAA Climate Database (temperature and precipitation)<br></p1>
+            </a>
+            <p1><br></p1>
+
           </div>
+
+          <div class="col-md-1"></div>
+
+          <div class="col-md-3">
+
+            <div class = "boxc">
+              <p style = "text-align: center;">Available Data Visualizations</p>
+            </div>
+
+            <div class = "boxa">
+              <div class = "Thumbnail">
+                <a href="Avg_sum_wint_temperature.png">
+                  <img src="Avg_sum_wint_temperature.png" alt="Monthly Avg Temperature" class = "img-fluid" alt = "Responsive image" style="width: 85%">
+                  <div class="caption">
+                    <p>Average monthly temperature in summer and winter</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          
+
+            <div class = "Thumbnail">
+              <div class = "boxb">
+                <a href="storm_pie_chart.png">
+                  <img src="storm_pie_chart.png" alt="Severe Storm Occurrances" class = "img-fluid" alt = "Responsive image" style="width:75%">
+                  <div class="caption">
+                    <p>Relative Occurrances of Severe Storms</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+        
+            <div class = "Thumbnail">
+              <div class = "boxa">
+                <a href="Num_Tornados_year.png">
+                  <img src="Num_Tornados_year.png" alt="Tornado per year" class = "img-fluid" alt = "Responsive image" style="width:75%">
+                  <div class="caption">
+                    <p>Number of storms per year</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class = "Thumbnail">
+              <div class = "boxb">
+                <a href="tornado_map_team7.png">
+                  <img src="tornado_map_team7.png" alt="Tornado map" class = "img-fluid" alt = "Responsive image" style="width:50%">
+                  <div class="caption">
+                    <p>Map of Tornado Location</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <footer class="page-footer font-small black pt-4 bg-success">
+      <div class="container-fluid text-center text-md-left">
+        <div class="row">
+          <div class="col-md-6 mt-md-0 mt-3">
+
+            <!-- Content -->
+            <h7 class="text-uppercase">Data Visualization Class</h7>
+                
+          </div>
+          <div class="footer-copyright text-center py-3"> Aug 2020:<br>
+            <a href="https://mdbootstrap.com/"> http://bootcampspot.com/</a>
+          </div>
+        </div>
       </div>
 
     <!-- Optional JavaScript -->
