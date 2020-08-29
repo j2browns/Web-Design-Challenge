@@ -99,5 +99,17 @@
   color: beige;
   font-size: 10 px;
   text-align: center;
+}
 
+.box_comb{
+  padding: 75 px;
+  color: black;
+  text-align: center;
+  vertical-align: center;
+}
+
+.box_comb h3{
+  color: black;
+  text-align: center;
+  font-size: medium;
 }
