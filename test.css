@@ -37,12 +37,14 @@
 .boxa {
   height: 160px;
   padding: 20px;
-  color: beige;
-  background: #B88051;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: black;
+  background: white;
   text-align: center;
 }
 .boxa p{
-  color: beige;
+  color: black;
   font-size: smaller;
   text-align: center;
 }
@@ -50,13 +52,15 @@
 .boxb {
     height: 160px;
     padding: 20px;
-    color: beige;
-    background: #7DA3B8;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: black;
+    background: white;
     text-align: center;
   }
 
 .boxb p{
-    color: beige;
+    color:black;
     font-size: smaller;
     text-align: center;
 
