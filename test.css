@@ -55,7 +55,6 @@
     text-align: center;
   }
 
-
 .boxb p{
     color: beige;
     font-size: smaller;
@@ -101,15 +100,52 @@
   text-align: center;
 }
 
-.box_comb{
-  padding: 75 px;
+.box_comb_a {
+  padding-top: 50px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 300px;
   color: black;
+  background: white;
   text-align: center;
   vertical-align: center;
 }
 
-.box_comb h3{
+.box_comb_a h3{
   color: black;
   text-align: center;
   font-size: medium;
+}
+
+.box_comb_b{
+  padding-top: 50px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 300px;
+  color: black;
+  background: white;
+  text-align: center;
+  vertical-align: center;
+}
+
+.box_comb_b h3{
+  color: black;
+  text-align: center;
+  font-size: medium;
+}
+
+.box_comb_a img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.box_comb_b img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
